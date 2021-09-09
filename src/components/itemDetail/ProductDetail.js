@@ -13,8 +13,9 @@ function ProductDetail({ match }) {
 	const dispatch = useDispatch();
 
 	useEffect(() => {
-		dispatch(getProductDetails(match.params.id));
-	}, [dispatch]);
+		if (product && match.params.id !== product.id)
+			dispatch(getProductDetails(match.params.id));
+	}, [dispatch, product, match]);
 
 	const fassured =
 		"https://static-assets-web.flixcart.com/www/linchpin/fk-cp-zion/img/fa_62673a.png";
@@ -53,7 +54,7 @@ function ProductDetail({ match }) {
 								<StarIcon className="h-4 self-center pl-1" />
 							</span>
 							8 Ratings & 23 Reviews
-							<img className="h-4 self-center ml-3" src={fassured} />
+							<img className="h-4 self-center ml-3" src={fassured} alt="" />
 						</p>
 						<h2 className="font-semibold mb-3">Available Offers</h2>
 

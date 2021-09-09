@@ -26,12 +26,3 @@ export const payUsingPaytm = async (data) => {
 		console.log("Error while calling paytm API", error);
 	}
 };
-
-//axios takes two param , one is our backend URL and the second one , the variable where we will get data from Frontend
-
-//when the request matches with/signup then the above declared function will work
-
-//we have many methods to call any api such as request , fetchAPI or by library axios
-//but try to not use request method because its depricated
-
-//In post API , we also send data

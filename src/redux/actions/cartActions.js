@@ -1,7 +1,7 @@
 import axios from "axios";
 import * as actionTypes from "../constants/cartConstant";
 
-const url = "http://localhost:8000";
+const url = "https://apiecomme.herokuapp.com";
 
 export const addToCart = (id) => async (dispatch) => {
 	try {

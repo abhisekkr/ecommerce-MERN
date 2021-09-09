@@ -21,7 +21,7 @@ function CartItem({ items, removeItem }) {
 				</div>
 				<p className="flex text-sm text-gray-400 pt-2">
 					Seller: SuperComNet{" "}
-					<img className="pl-3  h-4 self-center" src={fassured} />
+					<img className="pl-3  h-4 self-center" src={fassured} alt="" />
 				</p>
 				<div className="flex space-x-3 pt-5">
 					<p className="text-lg font-semibold">₹{items.price.cost}</p>

@@ -11,15 +11,14 @@ function CartPrice({ cartItems }) {
 	const totalAmount = () => {
 		let price = 0,
 			discount = 0;
-		cartItems.map(
-			(item) => (
-				(price += item.price.mrp),
-				(discount += item.price.mrp - item.price.cost)
-			)
-		);
+		cartItems.map((item) => {
+			price += item.price.mrp;
+			discount += item.price.mrp - item.price.cost;
+		});
 		setPrice(price);
 		setDiscount(discount);
 	};
+
 	return (
 		<div className="md:ml-4 ml-14 w-96 border">
 			<h2 className="py-4 px-6 font-semibold  text-gray-500 border-b">
