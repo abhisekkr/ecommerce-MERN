@@ -8,7 +8,7 @@ Flipkart Clone , A ReactJS Webapp with styling using Tailwind CSS , We can explo
  
 ## Application Links
 
-Deployed URL --> https://ecommerce-by-abhisek.netlify.app/](https://ecommerce-by-abhisek.netlify.app/)
+Deployed URL --> [https://ecommerce-by-abhisek.netlify.app/](https://ecommerce-by-abhisek.netlify.app/)
 
 ## Tech Stack
 
