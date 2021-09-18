@@ -1,6 +1,6 @@
 # Flipkart Clone
 
-Flipkart Clone , A ReactJS Webapp with styling using Tailwind CSS , We can explore diffrent products , with Buying and Add to cart functionality with Paytm Payment Gateway
+Flipkart Clone , A MERN stack app with styling using Tailwind CSS , We can explore different products , with Buying and Add to cart functionality with Paytm Payment Gateway
 
 ## Project Overview
 - Guest Login Email --> abhi@test.com
